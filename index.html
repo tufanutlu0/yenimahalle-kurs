@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Yenimahalle Kurs Merkezleri Rehberi | Yeni Nesil LGS Hazırlık</title>
+    <meta name="description" content="Yenimahalle kurs arayışınızda yeni nesil yaklaşım. Ankara Yenimahalle en iyi kurs merkezleri, LGS hazırlık stratejileri ve güncel Yenimahalle kurs fiyatları rehberi. Yıldız Kurs sponsorluğunda.">
+    <meta name="keywords" content="Yenimahalle kurs, Yenimahalle kurs merkezleri, Yenimahalle LGS kursu, Ankara Yenimahalle en iyi kurs, Yenimahalle kurs fiyatları, Yenimahalle yeni nesil kurs">
+    <meta name="author" content="Yıldız Kurs & Nokta Sosyal Medya">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            electric: '#2563EB',
+                            coral: '#FF6B6B',
+                            dark: '#0F172A',
+                            light: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Syne', 'sans-serif'],
+                    },
+                    animation: {
+                        'marquee': 'marquee 25s linear infinite',
+                        'blob': 'blob 10s infinite alternate',
+                    },
+                    keyframes: {
+                        marquee: {
+                            '0%': { transform: 'translateX(0%)' },
+                            '100%': { transform: 'translateX(-100%)' },
+                        },
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '100%': { transform: 'translate(20px, -30px) scale(1.1)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Noise Texture & Base */
+        body {
+            background-color: #F8FAFC;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+            overflow-x: hidden;
+        }
+
+        /* Neo-Brutalist Gölgeler ve Kenarlıklar */
+        .neo-box {
+            border: 3px solid #0F172A;
+            box-shadow: 8px 8px 0px #0F172A;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        .neo-box:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0px #0F172A;
+        }
+        .neo-btn {
+            border: 2px solid #0F172A;
+            box-shadow: 4px 4px 0px #0F172A;
+            transition: all 0.2s ease;
+        }
+        .neo-btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px #0F172A;
+        }
+
+        /* Scroll Reveal Animasyonları */
+        .reveal-up {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-left {
+            opacity: 0;
+            transform: translateX(-40px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-right {
+            opacity: 0;
+            transform: translateX(40px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .is-visible {
+            opacity: 1;
+            transform: translate(0, 0);
+        }
+
+        /* Glassmorphism */
+        .glass-nav {
+            background: rgba(248, 250, 252, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 2px solid #0F172A;
+        }
+
+        /* Kayan Yazı Konteyneri */
+        .marquee-container { overflow: hidden; white-space: nowrap; border-top: 3px solid #0F172A; border-bottom: 3px solid #0F172A; }
+        
+        /* Gradient Text */
+        .text-gradient {
+            background: linear-gradient(135deg, #2563EB, #FF6B6B);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans text-brand-dark antialiased">
+
+    <div class="fixed top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-brand-electric/20 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob z-[-1]"></div>
+    <div class="fixed top-[20%] right-[-10%] w-[35vw] h-[35vw] bg-brand-coral/20 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob z-[-1]" style="animation-delay: 2s;"></div>
+
+    <nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="font-display font-bold text-2xl tracking-tighter">
+                YENİMAHALLE<span class="text-brand-electric">KURS</span>
+            </div>
+            <a href="https://yildizkurs.com.tr" target="_blank" rel="noopener" class="hidden md:inline-flex items-center gap-2 bg-brand-electric text-white px-6 py-2.5 rounded-full font-bold text-sm tracking-wide hover:bg-brand-dark transition-colors neo-btn">
+                Ana Sponsor <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative pt-40 pb-20 px-6 max-w-7xl mx-auto overflow-hidden">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="reveal-up z-10">
+                <div class="inline-block bg-brand-coral text-white font-bold px-4 py-1.5 rounded-full text-sm mb-6 uppercase tracking-wider border-2 border-brand-dark shadow-[4px_4px_0px_#0F172A]">
+                    ⚡ Yenimahalle Kurs Merkezleri
+                </div>
+                <h1 class="font-display text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tight mb-6">
+                    Sınav Hazırlığında <br>
+                    <span class="text-gradient">Yeni Nesil</span> Dönem
+                </h1>
+                <p class="text-lg text-gray-700 font-medium mb-8 max-w-lg border-l-4 border-brand-electric pl-4">
+                    Klasik ezberci sistemi yıkıyoruz. Yenimahalle'de "yeni nesil soru tipleri" ile tanışın, sınav maratonuna analitik bir zekayla hazırlanın.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#vitrin" class="bg-brand-electric text-white px-8 py-4 rounded-xl font-bold text-lg neo-btn inline-flex items-center gap-2">
+                        Lider Kursu İncele <i class="fas fa-bolt text-yellow-300"></i>
+                    </a>
+                    <a href="#rehber" class="bg-white text-brand-dark px-8 py-4 rounded-xl font-bold text-lg neo-btn">
+                        Rehberi Oku
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative reveal-left hidden lg:block">
+                <div class="absolute inset-0 bg-brand-coral rounded-[3rem] rotate-6 neo-box"></div>
+                <div class="relative bg-white rounded-[3rem] p-8 neo-box h-[500px] flex flex-col justify-center items-center text-center overflow-hidden">
+                    <div class="absolute top-10 right-10 text-6xl opacity-10"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="absolute bottom-10 left-10 text-6xl opacity-10"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="font-display text-3xl font-bold mb-4">LGS & YKS</h3>
+                    <p class="text-brand-electric font-bold text-xl mb-6">%100 MEB Müfredat Uyumu</p>
+                    <div class="w-full bg-gray-100 h-32 rounded-xl border-2 border-brand-dark relative overflow-hidden">
+                        <div class="absolute left-0 bottom-0 w-3/4 h-full bg-brand-electric origin-bottom scale-y-[0.8]"></div>
+                        <div class="absolute left-1/4 bottom-0 w-1/4 h-full bg-brand-coral origin-bottom scale-y-[1]"></div>
+                    </div>
+                    <p class="mt-4 font-bold text-sm text-gray-500 uppercase tracking-widest">Başarı Grafiği</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee-container bg-brand-electric text-white py-4 my-12 transform -rotate-1 shadow-lg">
+        <div class="animate-marquee inline-block font-display font-bold text-2xl uppercase tracking-widest">
+            YENİ NESİL EĞİTİM • LGS HAZIRLIK • YENİMAHALLE EN İYİ KURS • YILDIZ KURS SPONSORLUĞUNDA • ANALİTİK DÜŞÜNCE • YENİ NESİL EĞİTİM • LGS HAZIRLIK • YENİMAHALLE EN İYİ KURS •
+        </div>
+    </div>
+
+    <section id="rehber" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16 reveal-up">
+            <h2 class="font-display text-4xl md:text-5xl font-extrabold mb-4">Doğru Kursu Seçme <span class="text-brand-coral">Rehberi</span></h2>
+            <p class="text-gray-600 font-medium text-lg">Yenimahalle kurs fiyatları ve eğitim kalitesi analizi.</p>
+        </div>
+
+        <div class="grid md:grid-cols-12 gap-8 auto-rows-[minmax(300px,auto)]">
+            
+            <div class="md:col-span-8 bg-white p-8 md:p-12 rounded-[2rem] neo-box reveal-up">
+                <div class="w-14 h-14 bg-brand-electric text-white rounded-xl flex items-center justify-center text-2xl mb-6 neo-box">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="font-display text-2xl md:text-3xl font-bold mb-4">Yeni Nesil Soru Tiplerine Hakim Kurs Seçimi</h3>
+                <p class="text-gray-700 leading-relaxed font-medium text-lg">
+                    Milli Eğitim Bakanlığı'nın yeni nesil soru tarzı, sadece bilgi değil mantık ve muhakeme gerektiriyor. Yenimahalle'deki kurs arayışınızda, öğrencilere analitik düşünmeyi öğreten ve salt ezberden uzak duran kurumları tercih etmelisiniz.
+                </p>
+            </div>
+
+            <div class="md:col-span-4 bg-brand-dark text-white p-8 md:p-10 rounded-[2rem] neo-box reveal-right flex flex-col justify-center">
+                <div class="w-14 h-14 bg-brand-coral text-white rounded-xl flex items-center justify-center text-2xl mb-6 border-2 border-white">
+                    <i class="fas fa-stopwatch"></i>
+                </div>
+                <h3 class="font-display text-2xl font-bold mb-4">LGS Kurslarında Deneme Sınavı Ritmi</h3>
+                <p class="text-gray-300 leading-relaxed font-medium">
+                    Bir kursun başarısı, uyguladığı Türkiye geneli deneme sınavlarının kalitesiyle ölçülür. Öğrencilerin gerçek sınav stresiyle erkenden tanışması ve zaman yönetimi becerisi kazanması, ancak disiplinli bir kurs programıyla mümkündür.
+                </p>
+            </div>
+
+            <div class="md:col-span-12 bg-gradient-to-r from-[#FFF5F5] to-white p-8 md:p-12 rounded-[2rem] neo-box reveal-up flex flex-col md:flex-row items-center gap-10">
+                <div class="flex-1">
+                    <div class="w-14 h-14 bg-yellow-400 text-brand-dark rounded-xl flex items-center justify-center text-2xl mb-6 neo-box">
+                        <i class="fas fa-balance-scale-right"></i>
+                    </div>
+                    <h3 class="font-display text-2xl md:text-3xl font-bold mb-4">Kurs Fiyatları ve Eğitim Kalitesi Dengesi</h3>
+                    <p class="text-gray-700 leading-relaxed font-medium text-lg">
+                        Yenimahalle kurs fiyatları geniş bir yelpazede değişse de, en ucuzu değil 'en verimli' olanı bulmak asıl hedeftir. Az kişilik sınıflar ve güçlü yayın desteği sunan kurumlar, öğrencinin geleceği için en kârlı yatırımdır.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/3 h-48 bg-brand-electric rounded-[1.5rem] neo-box flex items-center justify-center relative overflow-hidden group">
+                     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                     <span class="font-display text-white text-3xl font-extrabold transform -rotate-12">Yatırım = Gelecek</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="vitrin" class="py-24 px-6 max-w-6xl mx-auto reveal-up">
+        <div class="relative bg-brand-dark rounded-[3rem] border-4 border-brand-electric shadow-[16px_16px_0px_#2563EB] p-10 md:p-16 overflow-hidden">
+            
+            <div class="absolute -top-20 -right-20 w-80 h-80 bg-brand-electric rounded-full blur-[100px] opacity-50 pointer-events-none"></div>
+            <div class="absolute -bottom-20 -left-20 w-80 h-80 bg-brand-coral rounded-full blur-[100px] opacity-30 pointer-events-none"></div>
+
+            <div class="relative z-10 flex flex-col items-center text-center">
+                <span class="inline-block bg-white text-brand-dark font-black px-6 py-2 rounded-full uppercase tracking-widest text-sm mb-8 neo-box">Bölgenin Lider Kursu</span>
+                
+                <h2 class="font-display text-5xl md:text-7xl font-black text-white mb-10 tracking-tight">
+                    YILDIZ <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-electric to-blue-300">KURS</span>
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-6 w-full max-w-4xl text-left mb-12">
+                    <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl flex items-start gap-4">
+                        <div class="w-12 h-12 bg-brand-coral text-white rounded-xl flex items-center justify-center text-xl shrink-0 neo-box border-none">
+                            <i class="fas fa-map-pin"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1">Adres</h4>
+                            <p class="text-gray-300 text-sm">Aşağı Yahyalar Mah., 994. Cadde, No:6/A, Yenimahalle / Ankara</p>
+                        </div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl flex items-start gap-4">
+                        <div class="w-12 h-12 bg-green-500 text-white rounded-xl flex items-center justify-center text-2xl shrink-0 neo-box border-none">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1">WhatsApp Hattı</h4>
+                            <p class="text-gray-300 text-sm font-mono text-lg">0532 479 06 68</p>
+                        </div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl flex items-start gap-4">
+                        <div class="w-12 h-12 bg-brand-electric text-white rounded-xl flex items-center justify-center text-xl shrink-0 neo-box border-none">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1">Sabit Hat</h4>
+                            <p class="text-gray-300 text-sm font-mono text-lg">0312 346 06 33</p>
+                        </div>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl flex items-start gap-4">
+                        <div class="w-12 h-12 bg-blue-400 text-white rounded-xl flex items-center justify-center text-xl shrink-0 neo-box border-none">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1">Web Sitesi</h4>
+                            <p class="text-gray-300 text-sm">yildizkurs.com.tr</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-6 w-full max-w-2xl">
+                    <a href="tel:03123460633" class="flex-1 bg-brand-coral text-white text-center py-5 rounded-xl font-black text-xl uppercase tracking-wider neo-btn">
+                        <i class="fas fa-phone mr-2"></i> Hemen Ara
+                    </a>
+                    <a href="https://yildizkurs.com.tr" target="_blank" rel="noopener" class="flex-1 bg-white text-brand-dark text-center py-5 rounded-xl font-black text-xl uppercase tracking-wider neo-btn group">
+                        Web Sitesi <i class="fas fa-external-link-alt ml-2 group-hover:rotate-12 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-10 border-t-2 border-brand-dark/10 font-medium text-gray-500 pb-28 md:pb-10">
+        <p>© 2026 Yenimahalle Kurs Rehberi. Tasarım ve Altyapı: Nokta Sosyal Medya</p>
+    </footer>
+
+    <div class="fixed bottom-4 left-4 right-4 z-50 md:hidden reveal-up">
+        <div class="bg-white border-2 border-brand-dark rounded-2xl p-2 flex gap-2 shadow-[4px_4px_0px_#0F172A]">
+            <a href="tel:05324790668" class="flex-1 bg-green-500 text-white py-3 rounded-xl font-bold text-center flex items-center justify-center gap-2 border-2 border-brand-dark active:translate-y-1 transition-transform">
+                <i class="fab fa-whatsapp text-xl"></i> İletişim
+            </a>
+            <a href="https://yildizkurs.com.tr" target="_blank" rel="noopener" class="flex-1 bg-brand-electric text-white py-3 rounded-xl font-bold text-center flex items-center justify-center gap-2 border-2 border-brand-dark active:translate-y-1 transition-transform">
+                <i class="fas fa-globe"></i> Ziyaret Et
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const reveals = document.querySelectorAll(".reveal-up, .reveal-left, .reveal-right");
+
+            const revealOnScroll = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("is-visible");
+                        observer.unobserve(entry.target); // Sadece bir kez çalışsın
+                    }
+                });
+            }, {
+                root: null,
+                threshold: 0.15,
+                rootMargin: "0px 0px -50px 0px"
+            });
+
+            reveals.forEach(reveal => {
+                revealOnScroll.observe(reveal);
+            });
+            
+            // İlk yüklemede Hero section'ı hemen göster
+            setTimeout(() => {
+                document.querySelectorAll('.reveal-up')[0]?.classList.add('is-visible');
+                document.querySelectorAll('.reveal-left')[0]?.classList.add('is-visible');
+            }, 100);
+        });
+    </script>
+</body>
+</html>
